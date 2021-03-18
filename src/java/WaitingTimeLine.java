@@ -2,9 +2,6 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
 public class WaitingTimeLine extends Line {
-    private final String serviceId;
-    private final String[] queryArray;
-    private final String queryType;
     private final LocalDate date;
     private final int time;
 
